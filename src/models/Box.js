@@ -11,4 +11,4 @@ const Box = new mongoose.Schema({
   timestamps: true
 });
 
-module.exportes = mongoose.model("Box", Box);
+module.exports = mongoose.model("Box", Box);
