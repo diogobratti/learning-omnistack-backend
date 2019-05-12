@@ -15,8 +15,6 @@ routes.post(
   multer(multerConfig).single('file'), 
   FileController.store
 );
-//routes.post('/files', multer(multerConfig).single('file'), FileController.store);
 
-//localhost:3333/boxes/5cd7510b14095e12b4f81d9b/files
 
 module.exports = routes;
